@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var heightSlider: UISlider!
     @IBOutlet weak var weightSlider: UISlider!
     
-    var controller = Controller()
+    var controller = Measurements()
     
     @IBAction func heightSliderValue(_ sender: UISlider) {
         let heightOnChange = String(format: "%.2f", sender.value)

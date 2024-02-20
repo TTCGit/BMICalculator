@@ -15,8 +15,7 @@
 		AD0B9F86230D61840065EFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */; };
 		AD64359A2312D0BC00E22B00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6435992312D0BC00E22B00 /* README.md */; };
 		C2198C652B7A7AED00D4264F /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2198C642B7A7AED00D4264F /* ResultsViewController.swift */; };
-		C2198C672B7A7B1400D4264F /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2198C662B7A7B1400D4264F /* BMI.swift */; };
-		C2198C692B7A7B2400D4264F /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2198C682B7A7B2400D4264F /* Controller.swift */; };
+		C2198C692B7A7B2400D4264F /* Measurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2198C682B7A7B2400D4264F /* Measurements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +29,7 @@
 		AD0B9F87230D61840065EFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6435992312D0BC00E22B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C2198C642B7A7AED00D4264F /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
-		C2198C662B7A7B1400D4264F /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BMI.swift; path = "BMI Calculator/Controllers/BMI.swift"; sourceTree = SOURCE_ROOT; };
-		C2198C682B7A7B2400D4264F /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Controller.swift; path = "BMI Calculator/Controllers/Controller.swift"; sourceTree = SOURCE_ROOT; };
+		C2198C682B7A7B2400D4264F /* Measurements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Measurements.swift; path = "BMI Calculator/Controllers/Measurements.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +95,7 @@
 		AD0B9F8F230D63EA0065EFD9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C2198C662B7A7B1400D4264F /* BMI.swift */,
-				C2198C682B7A7B2400D4264F /* Controller.swift */,
+				C2198C682B7A7B2400D4264F /* Measurements.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,10 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2198C672B7A7B1400D4264F /* BMI.swift in Sources */,
 				AD0B9F7E230D61800065EFD9 /* ViewController.swift in Sources */,
 				AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */,
-				C2198C692B7A7B2400D4264F /* Controller.swift in Sources */,
+				C2198C692B7A7B2400D4264F /* Measurements.swift in Sources */,
 				AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */,
 				C2198C652B7A7AED00D4264F /* ResultsViewController.swift in Sources */,
 			);

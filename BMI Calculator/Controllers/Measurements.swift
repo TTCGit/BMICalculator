@@ -9,7 +9,13 @@
 import Foundation
 import UIKit
 
-struct Controller {
+struct BMI {
+    var value:Float
+    var advice: String
+    var color: UIColor
+}
+
+struct Measurements {
     var bmi: BMI?
     
     func getBmi() -> String {
